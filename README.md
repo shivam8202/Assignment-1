@@ -29,6 +29,7 @@ It demonstrates dynamic data rendering from an API-like JSON file and updates ba
 
 ## 📂 Folder Structure
 
+```
 Assignment-1/
 │
 ├── index.html → Main dashboard page
@@ -36,6 +37,7 @@ Assignment-1/
 ├── script.js → Core JavaScript logic (fetch, dropdowns, dynamic content)
 ├── db.json → Mock API data (companies, accounts, transactions)
 └── README.md → Documentation
+```
 
 ## 🧑‍💻 How to Run the Project
 
