@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EazyPayouts Dashboard</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <div class="main-container">
+
+    <aside class="sidebar">
+      <div class="logo">
+        <img src="assets/logo.png" alt="EazyPayouts" />
+        <h2>EazyPayouts</h2>
+      </div>
+      <ul class="menu">
+        <li class="active">💰 Loads</li>
+        <li>📄 Statements</li>
+        <li>💳 Transactions</li>
+      </ul>
+      <button class="logout">🚪 Logout</button>
+    </aside>
+
+
+    <section class="content">
+      <div class="filters">
+        <select id="companySelect">
+          <option value="">Company Name</option>
+        </select>
+        <select id="accountSelect">
+          <option value="">Account Name</option>
+        </select>
+      </div>
+
+      <div class="balance-card">
+        <div class="icon">🧾</div>
+        <div>
+          <p>Available Balance</p>
+          <h2>₹ 8,88,88,88,888</h2>
+        </div>
+      </div>
+
+      <p class="latest">Latest Loads are displayed here</p>
+
+      <table id="transactionTable">
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Credit</th>
+            <th>A/c Balance</th>
+            <th>UTR/RRN</th>
+            <th>A/c No /UPI</th>
+          </tr>
+        </thead>
+        <tbody></tbody>
+      </table>
+    </section>
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
