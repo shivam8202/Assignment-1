@@ -57,16 +57,17 @@ Assignment-1/
 ```
 
 ## 🧑‍💻 How to Run the Project
-
-Open VS Code or any terminal.
-Navigate to the project folder:
-cd Assignment-1
-Start the Node server:
-node server.js
-Open your browser and go to:
-http://localhost:3000
-You’ll see the EazyPayouts Dashboard UI.
-Select a company → choose an account → see details appear instantly!
+```
+1. Open VS Code or any terminal.
+2. Navigate to the project folder:
+3. cd Assignment-1
+4. Start the Node server:
+5. node server.js
+6. Open your browser and go to:
+7. http://localhost:3000
+8. You’ll see the EazyPayouts Dashboard UI.
+9. Select a company → choose an account → see details appear instantly!
+```
 ---
 
 ## 🧠 How It Works
