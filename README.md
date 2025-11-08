@@ -71,9 +71,11 @@ Assignment-1/
 ---
 
 ## 🧠 How It Works
-On page load, the script fetches the company list from /api/companies.
-When a company is selected, another API call fetches its associated accounts.
-Selecting an account fetches that account’s details (balance, number, holder name) dynamically.
-The entire flow uses asynchronous JavaScript (fetch) for smooth user experience.
+```
+1. On page load, the script fetches the company list from /api/companies.
+2. When a company is selected, another API call fetches its associated accounts.
+3. Selecting an account fetches that account’s details (balance, number, holder name) dynamically.
+4. The entire flow uses asynchronous JavaScript (fetch) for smooth user experience.
+```
 ---
 
